@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const API = "https://webprog-guestbook-backend-nzyxwy0ej-chase-ian-s-projects.vercel.app/guestbook";
+const API = "https://webprog-guestbook-backend-8cay67nos-chase-ian-s-projects.vercel.app/guestbook";
 
 export default function App() {
   const [entries, setEntries] = useState([]);
